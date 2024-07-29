@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C4018DAA-EA59-4DB8-90C5-B122CCF73B62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkShortenerProject.Domain", "LinkShortenerProject.Domain\LinkShortenerProject.Domain.csproj", "{4E5D8F0D-2E1E-4610-B47F-DDCD581159FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E5D8F0D-2E1E-4610-B47F-DDCD581159FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5D8F0D-2E1E-4610-B47F-DDCD581159FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5D8F0D-2E1E-4610-B47F-DDCD581159FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5D8F0D-2E1E-4610-B47F-DDCD581159FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E5D8F0D-2E1E-4610-B47F-DDCD581159FD} = {C4018DAA-EA59-4DB8-90C5-B122CCF73B62}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF67FE4A-3382-47F4-BD19-EC28AF689C8A}
+	EndGlobalSection
+EndGlobal
