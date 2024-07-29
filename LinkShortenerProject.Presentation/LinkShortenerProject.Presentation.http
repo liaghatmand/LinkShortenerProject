@@ -1,0 +1,6 @@
+@LinkShortenerProject.Presentation_HostAddress = http://localhost:5223
+
+GET {{LinkShortenerProject.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
