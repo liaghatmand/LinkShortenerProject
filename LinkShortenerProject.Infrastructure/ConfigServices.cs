@@ -7,8 +7,7 @@ namespace LinkShortenerProject.Infrastructure;
 
 public static class ConfigServices
 {
-    public static IServiceCollection RegisterInfrastructureServices(this IServiceCollection services,
-        IConfiguration configuration)
+    public static IServiceCollection RegisterInfrastructureServices(this IServiceCollection services)
     {
         var ConnectionString = @"";
 

@@ -2,7 +2,7 @@ using LinkShortenerProject.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 {
-    builder.Services.RegisterInfrastructureServices(builder.Configuration);
+    builder.Services.RegisterInfrastructureServices();
     builder.Services.AddControllers();
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
